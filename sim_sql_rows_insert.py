@@ -1,3 +1,11 @@
+"""
+This code assumes that you have your insert incantation before all of this:
+
+insert into table_name (your columns) values (,,,,)
+
+... values (,,,,) <-- this part is taken care of in this piece of code
+"""
+
 import random
 import numpy as np
 n = 60
